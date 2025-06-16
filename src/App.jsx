@@ -102,8 +102,12 @@ const App = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.2 }}
       >
-        <p className="text-2xl text-gray-300 font-medium">Drag & drop an image here</p>
-        <p className="text-xl text-gray-400 mt-2 mb-6">or click below to upload</p>
+        <p className="text-2xl text-gray-300 font-medium">
+          Drag & drop an image here
+        </p>
+        <p className="text-xl text-gray-400 mt-2 mb-6">
+          or click below to upload
+        </p>
 
         <label className="inline-block bg-yellow-400 text-black text-2xl font-bold px-8 py-4 rounded-xl shadow-xl hover:bg-yellow-300 transition cursor-pointer">
           Choose File
@@ -133,7 +137,9 @@ const App = () => {
               onChange={(e) => setPixelSize(Number(e.target.value))}
               className="w-96 ml-6 accent-yellow-400"
             />
-            <span className="ml-4 text-yellow-300 text-2xl font-bold">{pixelSize}px</span>
+            <span className="ml-4 text-yellow-300 text-2xl font-bold">
+              {pixelSize}px
+            </span>
           </label>
 
           <canvas
@@ -149,6 +155,17 @@ const App = () => {
           </button>
         </motion.div>
       )}
+      <footer className="mt-20 text-gray-400 text-lg text-center">
+        Built with ❤️ by{" "}
+        <a
+          href="https://rupeshhh-portfolio.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-yellow-400 hover:underline"
+        >
+          Rupesh
+        </a>
+      </footer>
     </div>
   );
 };
