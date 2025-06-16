@@ -2,8 +2,7 @@
 
 **Pixify** is a sleek, minimalistic web app that transforms your images into beautiful **pixelated artworks**. Just upload or drag & drop an image, choose your pixel size, and download the result instantly!
 
-![Pixify Preview](![image](https://github.com/user-attachments/assets/eec22d42-53cd-4a87-ad13-61c46947a0b6))
-
+![Pixify Preview](https://github.com/user-attachments/assets/eec22d42-53cd-4a87-ad13-61c46947a0b6)
 
 ---
 
@@ -34,7 +33,6 @@
 - **Canvas API** – Pixelation engine
 
 ---
-
 ## 🚀 Getting Started
 
 ### Clone the Repository
