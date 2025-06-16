@@ -62,10 +62,6 @@ https://pixifyy.vercel.app/
 ![image](https://github.com/user-attachments/assets/d26283a7-47fb-4fd9-84a3-11f4f91bd885)
 
 
-👨‍🎨 Author
-Made with ❤️ by Rupesh
-Connect with me and explore more awesome projects!
-
 📄 License
 This project is licensed under the MIT License.
 
